@@ -27,7 +27,7 @@
 
     <!-- header starts -->
 
-    <header class="w-full flex justify-between items-center px-20 py-5 bg-[#fcfcff] sticky top-0">
+    <header class="w-full flex justify-between items-center px-20 py-5 bg-[#fcfcff] sticky top-0 z-1">
         <div class="w-32 lg:w-52">
             <img src="./logo.png" alt="">
         </div>
@@ -47,151 +47,205 @@
     <!-- header ends -->
 
     <!-- main stats from here -->
-    <section class="flex flex-col bg-[#efeefd] lg:flex-row lg:gap-[20px] items-center lg:justify-center">
-        <div class="lg:text-center lg:pb-[200px]">
-            <div class="text-md">
-                <p class="text-5xl text-center font-semibold opacity-75 mt-20 px-4 lg:w-[50%] lg:mx-auto">Digital
-                    marketing that drives
-                    result for your business</p>
-                <p class="text-gray-500 my-4 text-center px-4">
-                    Mauris donec ociis magnis sapien ipsum sagittis sapien tempor and volute gravida aliquet quaerat
-                    vitae
-                </p>
+
+    <main>
+        <section class="flex flex-col bg-[#efeefd] lg:flex-row lg:gap-[20px] items-center lg:justify-center">
+            <div class=" lg:pb-[200px] w-auto text-center lg:text-left px-6 lg:px-0 lg:w-1/3">
+                <div class="text-md">
+                    <p
+                        class="text-3xl lg:text-7xl text-center lg:text-left text-zinc-600 font-semibold px-4 mt-10 leading-snug">
+                        Digital marketing that drives results for your business
+                    </p>
+                    <p class="text-gray-500 text-base sm:text-lg leading-relaxed px-4 mt-4 max-w-md mx-auto lg:mx-0">
+                        Mauris donec ociis magnis sapien ipsum sagittis sapien tempor and volute gravida aliquet quaerat
+                        vitae.
+                    </p>
+                </div>
+
+                <div class="pl-20 lg:pl-0">
+                    <div class="flex flex-col lg:flex-row lg:gap-5">
+                        <input class=" w-[80%] h-10 rounded-[10px] lg:w-2/3 p-7" type="text"
+                            placeholder="YOUR EMAIL ADDRES">
+                        <input type="submit"
+                            class="w-[80%] bg-[#7b5dd6] h-10 mt-5 lg:mt-1 rounded-[10px] text-white font-bold lg:w-1/3 px-7 pt-4 pb-9"
+                            value="GET STARTED"><br>
+                    </div>
+                    <p class=" text-gray-500 mt-3 text-left"><i class="fa-solid fa-check"></i>
+                        No
+                        credit card needed,free 14 day trial</p>
+                </div>
+            </div>
+            <div class="">
+                <img src="img-06.png" alt="">
+            </div>
+        </section>
+
+        <section class="flex flex-col justify-center items-center gap-20 py-10 lg:flex-row lg:py-20">
+            <div class="flex flex-col justify-center items-center gap-2">
+                <i class="fa-solid fa-money-bill-trend-up text-[#7b5dd6] text-6xl mx-0"></i>
+                <p class=" text-center text-4xl font-medium">Market Research</p>
+                <p class="text-gray-500">Luctus augue egestas undo ultrice and quisque lacus</p>
+            </div>
+            <div class="flex flex-col justify-center items-center gap-2">
+                <i class="fa-solid fa-lightbulb text-[#7b5dd6] text-6xl mx-0"></i>
+                <p class=" text-center text-4xl font-medium">User Experience </p>
+                <p class="text-gray-500">Luctus augue egestas undo ultrice and quisque lacus</p>
+
+            </div>
+            <div class="flex flex-col justify-center items-center gap-2">
+                <i class="fa-solid fa-chart-simple text-[#7b5dd6] text-6xl mx-0"></i>
+                <p class=" text-center text-4xl font-medium">Digital Marketing</p>
+                <p class="text-gray-500">Luctus augue egestas undo ultrice and quisque lacus</p>
+
+            </div>
+            <div class="flex flex-col justify-center items-center gap-2">
+                <i class="fa-brands fa-servicestack text-[#7b5dd6] text-6xl mx-0"></i>
+                <p class=" text-center text-4xl font-medium">SEO Services</p>
+                <p class="text-gray-500">Luctus augue egestas undo ultrice and quisque lacus</p>
+
+
             </div>
 
+        </section>
+        <hr class="text-black-800">
+
+        <section
+            class="flex flex-col justify-center pt-10 pb-10 gap-10 lg:flex-row lg:justify-center lg:items-center lg:gap-10 lg:pl-20">
             <div>
-                <div class="flex flex-col justify-center items-center w-50  lg:flex-row lg:gap-5">
-                    <input class="text-center w-[80%] h-10 rounded-[10px] lg:w-[40%] " type="text"
-                        placeholder="YOUR EMAIL ADDRES">
-                    <input type="submit"
-                        class="w-[80%] bg-[#7b5dd6] h-10 mt-5 lg:mt-1 rounded-[10px] text-white font-bold lg:w-[15%]"
-                        value="GET STARTED"><br>
-                </div>
-                <p class="text-center text-gray-500 lg:text-center lg:pr-[400px]"><i class="fa-solid fa-check"></i> No
-                    credit card needed,free 14 day trial</p>
+                <img src="2nd img.png" alt="">
             </div>
-        </div>
-        <div class="mr-10 lg:w-[500px] lg:mr-[300px]">
-            <img src="img-06.png" alt="">
-        </div>
-    </section>
-
-    <section class="flex flex-col justify-center items-center gap-20 py-10 lg:flex-row lg:py-20">
-        <div class="flex flex-col justify-center items-center gap-2">
-            <i class="fa-solid fa-money-bill-trend-up text-[#7b5dd6] text-6xl mx-0"></i>
-            <p class=" text-center text-4xl font-medium">Market Research</p>
-            <p class="text-gray-500">Luctus augue egestas undo ultrice and quisque lacus</p>
-        </div>
-        <div class="flex flex-col justify-center items-center gap-2">
-            <i class="fa-solid fa-lightbulb text-[#7b5dd6] text-6xl mx-0"></i>
-            <p class=" text-center text-4xl font-medium">User Experience </p>
-            <p class="text-gray-500">Luctus augue egestas undo ultrice and quisque lacus</p>
-
-        </div>
-        <div class="flex flex-col justify-center items-center gap-2">
-            <i class="fa-solid fa-chart-simple text-[#7b5dd6] text-6xl mx-0"></i>
-            <p class=" text-center text-4xl font-medium">Digital Marketing</p>
-            <p class="text-gray-500">Luctus augue egestas undo ultrice and quisque lacus</p>
-
-        </div>
-        <div class="flex flex-col justify-center items-center gap-2">
-            <i class="fa-brands fa-servicestack text-[#7b5dd6] text-6xl mx-0"></i>
-            <p class=" text-center text-4xl font-medium">SEO Services</p>
-            <p class="text-gray-500">Luctus augue egestas undo ultrice and quisque lacus</p>
-
-
-        </div>
-
-    </section>
-    <hr class="text-black-800">
-
-    <section
-        class="flex flex-col justify-center pt-10 pb-10 gap-10 lg:flex-row lg:justify-around lg:items-center lg:gap-10">
-        <div>
-            <img src="2nd img.png" alt="">
-        </div>
-        <div class="flex flex-col gap-10 lg:pb-40">
-            <div class="flex flex-col gap-5 px-5">
-                <p class="text-gray-500 text-left py-0 ">Strategies that work</p>
-                <p class="text-4xl font-bold opacity-75 lg:text-6xl">Right strategies & implementations</p>
-                <p class="text-gray-500 lg:text-xl">
-                    Nemo ipsam egestas volute turpis egestas ipsum and purus sapien ultrice an
-                    aliquam quaerat ipsum augue turpis sapien <br> cursus congue magna purus quaerat at ligula purus
-                    egestas
-                    magna cursus undo varius purus magnis sapien quaerat
-                </p>
-
-
-            </div>
-            <div class="flex flex-col gap-5 px-5">
-                <p class="text-3xl font-bold opacity-75 lg:text-5xl">Get more done in less time</p>
-                <div class="flex flex-col gap-5 lg:text-xl">
-                    <p class="text-gray-500"><i class="fa-solid fa-circle-dot text-[10px] pr-1"></i>Sapien quaerat
-                        tempor an ipsum laoreet purus and sapien
-                        dolor an ultrice ipsum aliquam undo congue cursus dolor
+            <div class="flex flex-col gap-10 lg:pb-40 lg:w-1/2 lg:gap-5">
+                <div class="flex flex-col gap-5 px-5">
+                    <p class="text-gray-500 text-left py-0 ">Strategies that work</p>
+                    <p class="text-4xl font-bold opacity-75 lg:text-6xl">Right strategies & implementations</p>
+                    <p class="text-gray-500 lg:text-xl lg:w-1/2">
+                        Nemo ipsam egestas volute turpis egestas ipsum and purus sapien ultrice an
+                        aliquam quaerat ipsum augue turpis sapien <br> cursus congue magna purus quaerat at ligula purus
+                        egestas
+                        magna cursus undo varius purus magnis sapien quaerat
                     </p>
-                    <p class="text-gray-500"><i class="fa-solid fa-circle-dot text-[10px] pr-1"></i>Sapien quaerat
-                        tempor an ipsum laoreet purus and sapien
-                        dolor an ultrice ipsum aliquam undo congue cursus dolor
-                    </p>
+
+
                 </div>
+                <div class="flex flex-col gap-5 px-5">
+                    <p class="text-3xl font-bold opacity-75 lg:text-5xl">Get more done in less time</p>
+                    <div class="flex flex-col gap-5 lg:text-xl lg:w-1/2">
+                        <p class="text-gray-500"><i class="fa-solid fa-circle-dot text-[10px] pr-1"></i>Sapien quaerat
+                            tempor an ipsum laoreet purus and sapien
+                            dolor an ultrice ipsum aliquam undo congue cursus dolor
+                        </p>
+                        <p class="text-gray-500"><i class="fa-solid fa-circle-dot text-[10px] pr-1"></i>Sapien quaerat
+                            tempor an ipsum laoreet purus and sapien
+                            dolor an ultrice ipsum aliquam undo congue cursus dolor
+                        </p>
+                    </div>
+                </div>
+
             </div>
 
-        </div>
+        </section>
 
-    </section>
-
-    <section class="flex flex-col justify-center lg:flex-row-reverse">
-        <div>
-            <img src="img-3.png" alt="">
-        </div>
-        <div class="flex flex-row justify-center items-center gap-10 pl-5">
-            <div class="flex flex-col mt-9 lg:pt-5">
-                <div
-                    class="flex items-center justify-center w-8 h-8 rounded-full bg-purple-500 text-white border-2 border-purple-500 hover:bg-white hover:text-black">
-                    1
-                </div>
-                <hr class="h-20 w-1">
-                <div
-                    class="flex items-center justify-center w-8 h-8 rounded-full bg-purple-500 text-white border-2 border-purple-500 hover:bg-white hover:text-black">
-                    2
-                </div>
-                <hr class="h-20 w-1">
-                <div
-                    class="flex items-center justify-center w-8 h-8 rounded-full bg-purple-500 text-white border-2 border-purple-500 hover:bg-white hover:text-black">
-                    3
-                </div>
-                <hr class="h-20 w-1">
+        <section class="flex flex-col justify-center lg:justify-right lg:flex-row-reverse">
+            <div>
+                <img src="img-3.png" alt="">
             </div>
+            <div class="flex flex-row justify-center items-center gap-10 pl-5">
+                <div class="flex flex-col mt-9 lg:pt-5">
+                    <div
+                        class="flex items-center justify-center w-8 h-8 rounded-full bg-purple-500 text-white border-2 border-purple-500 hover:bg-white hover:text-black">
+                        1
+                    </div>
+                    <hr class="h-20 w-1">
+                    <div
+                        class="flex items-center justify-center w-8 h-8 rounded-full bg-purple-500 text-white border-2 border-purple-500 hover:bg-white hover:text-black">
+                        2
+                    </div>
+                    <hr class="h-20 w-1">
+                    <div
+                        class="flex items-center justify-center w-8 h-8 rounded-full bg-purple-500 text-white border-2 border-purple-500 hover:bg-white hover:text-black">
+                        3
+                    </div>
+                    <hr class="h-20 w-1">
+                </div>
 
 
-            <div class="flex flex-col gap-5 mt-4 text-base lg:gap-10">
+                <div class="flex flex-col gap-3 mt-4 text-base lg:gap-5 lg:w-[50%]">
+
+                    <div>
+                        <h1 class="text-black">Simplify. Optimize. Automate</h1>
+                        <p>Ligula risus auctor tempus feugiat dolor lacinia nemo purus in lipsum purus sapien quaerat a
+                            primis viverra tellus vitae luctus dolor ipsum neque ligula quaerat
+
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="text-black">Simplify. Optimize. Automate</h1>
+                        <p>Ligula risus auctor tempus feugiat dolor lacinia nemo purus in lipsum purus sapien quaerat a
+                            primis viverra tellus vitae luctus dolor ipsum neque ligula quaerat
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="text-black">Simplify. Optimize. Automate</h1>
+                        <p>Ligula risus auctor tempus feugiat dolor lacinia nemo purus in lipsum purus sapien quaerat a
+                            primis viverra tellus vitae luctus dolor ipsum neque ligula quaerat
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex flex-col gap-20 py-10">
+            <div class="flex flex-col justify-center items-center gap-8">
+                <h1 class="text-center text-5xl font-bold lg:w-[40%] ">Track the progress towards objectives
+                    with key
+                    results</h1>
+                <p class="text-center text-gray-500 text-lg">Ligula risus auctor tempus magna feugiat lacinia.</p>
+            </div>
+            <div
+                class="flex flex-col lg:flex-row lg:justify-center lg:w-[70%] lg:mx-auto lg:items-around lg:gap-10 px-10 ">
+                <div>
+                    <div class="bg-[#f7f7fb] rounded-[10px] py-10 ">
+                        <img class="w-[80%] mx-auto" src="card-1.png" alt="">
+                    </div>
+                    <div class="text-center px-5 py-5">
+                        <h1 class="text-4xl pb-3 font-semibold">Intuitive Dashboard</h1>
+                        <p class="text-gray-500 text-lg">Luctus egestas augue undo ultrice aliquam in lacus congue
+                            dapibus</p>
+
+                    </div>
+                </div>
+
 
                 <div>
-                    <h1 class="text-black">Simplify. Optimize. Automate</h1>
-                    <p>Ligula risus auctor tempus feugiat dolor lacinia nemo purus in lipsum purus sapien quaerat a
-                        primis viverra tellus vitae luctus dolor ipsum neque ligula quaerat
+                    <div class="bg-[#f7f7fb] rounded-[10px] py-10 ">
+                        <img class="w-[80%] mx-auto " src="card-2.png" alt="">
+                    </div>
+                    <div class="text-center px-5 py-5">
+                        <h1 class="text-4xl pb-3 font-semibold">Engagement Analysis</h1>
+                        <p class="text-gray-500 text-lg">Luctus egestas augue undo ultrice aliquam in lacus congue
+                            dapibus</p>
 
-                    </p>
+                    </div>
                 </div>
+
+
                 <div>
-                    <h1 class="text-black">Simplify. Optimize. Automate</h1>
-                    <p>Ligula risus auctor tempus feugiat dolor lacinia nemo purus in lipsum purus sapien quaerat a
-                        primis viverra tellus vitae luctus dolor ipsum neque ligula quaerat
-                    </p>
-                </div>
-                <div>
-                    <h1 class="text-black">Simplify. Optimize. Automate</h1>
-                    <p>Ligula risus auctor tempus feugiat dolor lacinia nemo purus in lipsum purus sapien quaerat a
-                        primis viverra tellus vitae luctus dolor ipsum neque ligula quaerat
-                    </p>
+                    <div class="bg-[#f7f7fb]">
+                        <img class="w-[80%] mx-auto " src="card-3.png" alt="">
+                    </div>
+                    <div class="text-center px-5 py-5">
+                        <h1 class="text-4xl pb-3 font-semibold">Advanced Security</h1>
+                        <p class="text-gray-500 text-lg">Luctus egestas augue undo ultrice aliquam in lacus congue
+                            dapibus</p>
+
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+
+        </section>
+    </main>
 
     <!-- main ends from here -->
-
 
 
 
