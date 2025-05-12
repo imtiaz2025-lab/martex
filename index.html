@@ -27,104 +27,51 @@
 
     <!-- header starts -->
 
-    <header
-        class="text-[#ffffff] fixed w-[100%] border border-red-500 flex justify-center gap-[100px] opacity-100 p-[10px] md:p-[50px] md:gap-[200px] lg:gap-[600px]">
-
-        <div class="pt-[50px] md:pt-0">
-            <img class="w-[180px] opacity-100 " src="logo.png" alt="">
-
+    <header class="border border-red-500 w-full flex justify-between items-center px-20 py-5">
+        <div class="w-32 lg:w-52">
+            <img src="./logo.png" alt="">
         </div>
-
-        <div class="md:flex gap-[50px]">
-
-            <div class="flex flex-col md:flex-row lg:flex-row">
-                <div class="inline relative group">
-
-                    <li><a class="text-black font-bold text-xl lg:2xl" href="#">About</a></li>
-
-
-                    <div
-                        class=" absolute top-[24.4px] right-[0px] bg-white text-left text-black text-[20px] w-[200px] text-center ">
-                        <a class="hidden group-hover:block  transition delay-150 hover:bg-gray-300" href="#">Why
-                            Martex?</a>
-                        <a class="hidden group-hover:block transition delay-150 hover:bg-gray-300 " href="#">
-                            Integrations </a>
-                        <a class="hidden group-hover:block transition delay-150 hover:bg-gray-300 " href="#"> How it
-                            works </a>
-                        <a class="hidden group-hover:block transition delay-150 hover:bg-gray-300 " href="#"> Best
-                            solutions </a>
-                        <a class="hidden group-hover:block transition delay-150 hover:bg-gray-300 " href="#">
-                            Tsestimonials</a>
-
-
-                    </div>
-
-
-
-                </div>
-
-
-
-                <li><a class="text-black font-bold text-xl lg:2xl" href="#">Feature</a></li>
-
-
-                <div class="inline relative group">
-
-                    <li><a class="text-black font-bold text-xl lg:2xl " href="#">Pages</a></li>
-
-
-                    <div
-                        class=" absolute top-[24.4px] right-[0px] bg-white text-left text-black text-[20px] w-auto text-center ">
-
-
-
-
-                        <div
-                            class=" absolute top-[24.4px] right-[0px] bg-white text-left text-black text-[20px] w-[200px] text-center ">
-                            <a class="hidden group-hover:block  transition delay-150 hover:bg-gray-300" href="#">Why
-                                Martex?</a>
-                            <a class="hidden group-hover:block transition delay-150 hover:bg-gray-300 " href="#">
-                                Integrations </a>
-                            <a class="hidden group-hover:block transition delay-150 hover:bg-gray-300 " href="#"> How it
-                                works </a>
-                            <a class="hidden group-hover:block transition delay-150 hover:bg-gray-300 " href="#"> Best
-                                solutions </a>
-                            <a class="hidden group-hover:block transition delay-150 hover:bg-gray-300 " href="#">
-                                Tsestimonials</a>
-
-
-                        </div>
-
-
-
-
-                    </div>
-
-
-
-
-
-                </div>
-
-                <li><a class="text-black font-bold text-xl lg:2xl" href="#">FAQ'S</a></li>
-
-
-            </div>
-
-            <div class="flex flex-col gap-[6px] md:flex-row lg:flex-row">
-
-                <li><a class="text-black font-bold text-xl lg:2xl" href="#"> Sign in</a></li>
-                <li><a class="text-white font-bold text-xl lg:2xl bg-[#7b5dd6] rounded-[10px] "
-                        href="#">Sign up</a></li>
-
-
-            </div>
-        </div>
-
-
-
+        <nav class="hidden lg:block">
+            <ul class="flex justify-between gap-6 ">
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Pages</li>
+                <li>Help Line</li>
+                <li>Location</li>
+            </ul>
+        </nav>
+        <nav class="block lg:hidden">
+            <i class="fa-solid fa-bars text-xl"></i>
+        </nav>
     </header>
     <!-- header ends -->
+
+    <!-- main stats from here -->
+    <section class="flex flex-col bg-[#efeefd] lg:flex-row lg:gap-[20px] border border-green-500  items-center lg:justify-center">
+        <div class="lg:text-center lg:pb-[200px]">
+            <div class="text-md">
+                <p class="text-5xl text-center font-semibold opacity-75 mt-20 px-4 lg:w-[50%] lg:mx-auto">Digital marketing that drives
+                    result for your business</p>
+                <p class="text-gray-500 my-4 text-center px-4">
+                    Mauris donec ociis magnis sapien ipsum sagittis sapien tempor and volute gravida aliquet quaerat
+                    vitae
+                </p>
+            </div>
+
+            <div>
+                <div class="flex flex-col justify-center items-center w-50  lg:flex-row lg:gap-5">
+                    <input class="text-center w-[80%] h-10 rounded-[10px] lg:w-[40%] " type="text" placeholder="YOUR EMAIL ADDRES">
+                    <input  type="submit" class="w-[80%] bg-[#7b5dd6] h-10 mt-5 lg:mt-1 rounded-[10px] text-white font-bold lg:w-[15%]" value="GET STARTED"><br>
+                </div>
+                <p class="text-center text-gray-500 lg:text-center lg:pr-[400px]"><i class="fa-solid fa-check"></i> No credit card needed,free 14 day trial</p>
+            </div>
+        </div>
+        <div class="mr-10 lg:w-[500px] lg:mr-[300px]">
+            <img  src="img-06.png" alt="">
+        </div>
+    </section>
+
+    <!-- main ends from here -->
 
 
 
